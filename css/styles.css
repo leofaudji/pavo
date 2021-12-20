@@ -807,7 +807,7 @@ input[type="checkbox"] {
 .cards-2 .card .value {
     color: #252c38;
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 5rem; 
     line-height: 5rem;
     text-align: center;
 }
@@ -1213,6 +1213,12 @@ a:hover.back-to-top {
     .ex-cards-1 .card:nth-of-type(3n + 2) {
         margin-right: 2.875rem;
         margin-left: 2.875rem;
+    }
+    
+    -webkit-scrollbar-thumb {
+        background-color: #5B37D4;
+        border-radius: 10px;
+        border: 1px solid #F9F9F9;
     }
     /* end of extra pages */
 }
