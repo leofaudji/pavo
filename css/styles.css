@@ -1021,6 +1021,7 @@ a:hover.back-to-top {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         background-color: #f1f9fc;
+        border-bottom: #bfd4e4 1px solid;
     }
 
     .offcanvas-collapse {

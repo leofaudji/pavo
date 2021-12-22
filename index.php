@@ -1,100 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<?php
+require_once "1-header.php" ;
 
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Lini - Software Cloud & Aplikasi SaaS untuk Koperasi di Indonesia" />
-        <meta name="author" content="LiniData" />
-
-        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-        <meta property="og:site_name" content="linara" />
-        <meta property="og:site" content="https://linara.com" />
-        <meta property="og:title" content="Lini - Software Cloud & Aplikasi SaaS untuk Koperasi di Indonesia" />
-        <meta property="og:description" content="Aplikasi SaaS Indonesia yang membantu meningkatkan performa perusahaan. Semua software dan aplikasi bisnis dapat diakses secara online." />
-        <meta property="og:image" content="" />
-        <meta property="og:url" content="https://linara.com" />
-        <meta name="twitter:card" content="summary_large_image" /> 
-
-        <!-- Webpage Title -->
-        <title>Lini - Software Cloud & Aplikasi SaaS untuk Koperasi di Indonesia</title>
-
-        <!-- Styles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-        <link href="css/fontawesome-all.css" rel="stylesheet" />
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-        <link href="css/swiper.css" rel="stylesheet" />
-        <link href="css/magnific-popup.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
-
-        <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.png" />
-        <style>
-            ::-webkit-scrollbar {width: 8px;}
-            ::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  -webkit-border-radius: 10px;border-radius: 10px;}
-            ::-webkit-scrollbar-thumb {background-color: #5B37D4;border-radius: 10px;border: 1px solid #F9F9F9;}
-            ::-webkit-scrollbar-thumb:window-inactive {background: rgba(255,0,0,0.4); }
-            
-        </style>
-    </head>
-    <body data-spy="scroll" data-target=".fixed-top">
-
-        <!-- Navigation -->
-        <nav class="navbar fixed-top">
-            <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
-                
-                <!-- Text Logo - Use this if you don't have a graphic logo -->
-                <!-- <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> -->
-
-                <!-- Image Logo -->
-                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-                    <img src="images/logo.svg" alt="alternative" class="h-8" />
-                </a>
-
-                <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
-                    <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
-                </button>
-
-                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
-                    <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
-                        <li>
-                            <a class="nav-link page-scroll active" href="#header">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="#features">Fitur</a>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="#details">Detail</a>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="#pricing">Harga</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tentang Kami</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="#demogratis">Demo</a>
-                        </li>
-                    </ul>
-                </div> <!-- end of navbar-collapse -->
-            </div> <!-- end of container -->
-        </nav> <!-- end of navbar -->
-        <!-- end of navigation -->
-
-        <!-- Header -->
+?>
+<!-- Header -->
         <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
             <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
                 <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
-                    <h1 class="h1-large mb-5">Platform bisnis untuk operasional koperasi</h1>
+                    <h1 class="h1-large mb-5">Koprasi - Platform bisnis untuk operasional koperasi</h1>
                     <p class="p-large mb-8">Biarkan kami mengurus data nasabah, transaksi, pembukuan, sampai ke laporan keuangan sehingga Anda bisa lebih fokus ke pengembangan bisnis.</p>
                     <a class="btn-solid-lg" href="#your-link"><i class="fab fa-android"></i>Hubungi kami</a>
                     <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Demo Gratis</a>
@@ -309,7 +221,7 @@
                 <div class="lg:col-span-5">
                     <div class="mb-16 lg:mb-0 xl:mt-16">
                         <h2 class="mb-6">Platform integration and life time free updates</h2>
-                        <p class="mb-4">Get a glimpse of what this app can do for your marketing automation and understand why current users are so excited when using Pavo
+                        <p class="mb-4">Get a glimpse of what this app can do for your marketing automation and understand why current users are so excited when using lintasan
                             together with their teams.</p>
                         <p class="mb-4">We will promptly answer any questions and honor your requests based on the service level agreement</p>
                     </div>
@@ -327,7 +239,7 @@
         <!-- Testimonials -->
         <div class="slider-1 py-32 bg-gray">
             <div class="container px-4 sm:px-8">
-                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
+                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about lintasan</h2>
 
                 <!-- Card Slider -->
                 <div class="slider-container">
@@ -339,7 +251,7 @@
                                 <div class="card">
                                     <img class="card-image" src="images/testimonial-1.jpg" alt="alternative" />
                                     <div class="card-body">
-                                        <p class="italic mb-3">It's been so fun to work with Pavo, I've managed to integrate it properly into my business flow and it's great</p>
+                                        <p class="italic mb-3">It's been so fun to work with lintasan, I've managed to integrate it properly into my business flow and it's great</p>
                                         <p class="testimonial-author">Jude Thorn - Designer</p>
                                     </div>
                                 </div>
@@ -363,7 +275,7 @@
                                 <div class="card">
                                     <img class="card-image" src="images/testimonial-3.jpg" alt="alternative" />
                                     <div class="card-body">
-                                        <p class="italic mb-3">I've been searching for a tool like Pavo for so long. I love the reports it generates and the amazing high accuracy</p>
+                                        <p class="italic mb-3">I've been searching for a tool like lintasan for so long. I love the reports it generates and the amazing high accuracy</p>
                                         <p class="testimonial-author">Marsha Singer - Marketer</p>
                                     </div>
                                 </div>
@@ -427,15 +339,15 @@
             <div class="absolute bottom-0 h-40 w-full bg-white"></div>
             <div class="container px-4 pb-px sm:px-8">
                 <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Beberapa opsi harga untuk semua anggaran</h2>
-                <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto">Paket harga kami diatur sedemikian rupa, sehingga setiap pengguna dapat mulai menikmati Lini-koprasi tanpa terlalu mengkhawatirkan biaya. Fleksibel dan transparan.</p>
+                <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto">Paket harga kami diatur sedemikian rupa, sehingga setiap pengguna dapat mulai menikmati Lintasan-koprasi tanpa terlalu mengkhawatirkan biaya. Fleksibel dan transparan.</p>
 
                 <!-- Card-->
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title">STANDARD</div>
-                        <div class="price"><span style="font-size:24px;font-weight: bold;color:rgb(224, 83, 111)">free</span></div>
+                        <div class="price"><span style="font-size:20px;font-weight: bold;color:rgb(243, 92, 122)">free</span></div>
                         <div class="frequency">monthly</div>
-                        <p>Paket basic dengan fitur-fitur standard dari kami. </p>
+                        <p align="justify">Paket basic dengan fitur-fitur standard dari kami. </p>
                         <ul class="list mb-7 space-y-2 text-left">
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
@@ -477,29 +389,17 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title">ADVANCED</div>
-                        <div class="price"><span style="font-size:24px;font-weight: bold;">Rp. 300.000</span></div>
+                        <div class="price"><span style="font-size:20px;font-weight: bold;">Rp. 300.000</span></div>
                         <div class="frequency">monthly</div>
-                        <p>Paket medium dengan fitur lebih lengkap dengan laporan-laporan akuntansi. </p>
+                        <p align="justify">Paket medium dengan fitur lebih lengkap dengan laporan-laporan akuntansi yang terintegrasi. </p>
                         <ul class="list mb-7 space-y-2 text-left">
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
+                                <div style="font-weight: bold;font-style: italic;">Fitur Paket Standard</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
                                 <div>Master Data</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Pendaftaran Anggota & Laporan</div>
-                            </li>
-                            <li class="flex">    
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Transaksi Simpanan & Pinjaman</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Laporan Mutasi Simpanan & Pinjaman</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Laporan Saldo Simpanan & Pinjaman</div>
                             </li>
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
@@ -529,46 +429,14 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title">COMPLETE</div>
-                        <div class="price"><span style="font-size:22px;font-weight: bold;">mulai dari Rp. 750.000</span></div>
+                        <div class="price"><span style="font-size:20px;font-weight: bold;">mulai dari Rp. 750.000</span></div>
                         <div class="frequency">monthly</div>
-                        <p align="">Paket lengkap dengan fitur komplit dari kami untuk memenuhi kebutuhan anda secara custom by request.</p>
+                        <p align="justify">Paket lengkap dengan fitur komplit dari kami untuk memenuhi kebutuhan anda secara custom by request.</p>
                         <ul class="list mb-7 text-left space-y-2">
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
-                                <div>Master Data</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Pendaftaran Anggota & Laporan</div>
-                            </li>
-                            <li class="flex">    
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Transaksi Simpanan & Pinjaman</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Laporan Mutasi Simpanan & Pinjaman</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Laporan Saldo Simpanan & Pinjaman</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Transaksi & Laporan Arus Kas</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Transaksi dan Laporan Jurnal/Pemindahbukuan</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Transaksi & Laporan Opname Kas</div>
-                            </li>         
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Laporan Neraca & L/R</div>
-                            </li>      
+                                <div style="font-weight: bold;font-style: italic;">Fitur Paket Advanced</div>
+                            </li>   
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
                                 <div>Cetak Validasi Transaksi</div>
@@ -610,7 +478,7 @@
                 </div>
                 <div class="lg:mt-24 xl:mt-44 xl:ml-12">
                     <p class="mb-4 text-gray-800 text-3xl leading-10">
-                        Coba gratis aplikasi selama 1 bulan
+                        Coba gratis aplikasi selama 14 hari
                     </p>
                     <p class="mb-4 text-gray-800 text-1xl leading-1">
                         Kode yang dioptimalkan memastikan tidak ada delay dan respon yang cepat.
@@ -622,50 +490,8 @@
         </div> <!-- end of basic-5 -->
         <!-- end of conclusion -->
 
+<?php
 
-        <!-- Footer -->
-        <div class="footer">
-            <div class="container px-4 sm:px-8">
-                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">
-                    Siap untuk tumbuh bersama Linidata ?
-                </h4>
-                <p class="mb-8 lg:max-w-3xl lg:mx-auto">
-                    Tingkatkan efisiensi, produktivitas, dan performa bisnis dengan berbagai produk LiniData.
-                </p>
+require_once "2-footer.php" ;
 
-                <div class="social-container">
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-android"></i>Hubungi kami</a>
-                </div>
-            </div> <!-- end of container -->
-        </div> <!-- end of footer -->
-        <!-- end of footer -->
-
-
-        <!-- Copyright -->
-        <div class="copyright">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
-                <ul class="mb-4 list-unstyled p-small">
-                    <li class="mb-2"><a href="article.html">Article Details</a></li>
-                    <li class="mb-2"><a href="terms.html">Terms & Conditions</a></li>
-                    <li class="mb-2"><a href="privacy.html">Privacy Policy</a></li>
-                </ul>
-                <p class="pb-2 p-small statement">© Copyright 2021 <a href="#your-link" class="no-underline">PT. Lini Data Nusantara</a></p>
-                
-                <p class="pb-2 p-small statement">
-                    Indonesia
-                </p> 
-            </div> 
-
-        <!-- end of container -->
-        </div> <!-- end of copyright -->
-        <!-- end of copyright -->
-
-
-        <!-- Scripts -->
-        <script src="js/jquery.min.js"></script> <!-- jQuery for JavaScript plugins -->
-        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
-</html>
+?>
