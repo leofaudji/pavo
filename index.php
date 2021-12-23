@@ -1,14 +1,16 @@
 <?php
 require_once "1-header.php" ;
-
+$hubungi = "https://api.whatsapp.com/send/?phone=6287759651803&text=Halo+saya+ingin+menanyakan+tentang+produk+Lintasan-Koprasi :)" ;
 ?>
 <!-- Header -->
         <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
             <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
                 <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
                     <h1 class="h1-large mb-5">Koprasi - Platform bisnis untuk operasional koperasi</h1>
-                    <p class="p-large mb-8">Biarkan kami mengurus data nasabah, transaksi, pembukuan, sampai ke laporan keuangan sehingga Anda bisa lebih fokus ke pengembangan bisnis.</p>
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-android"></i>Hubungi kami</a>
+                    <p class="p-large mb-8">
+                        Core banking sistem dengan operasional yang detail dan terbaik, dengan memfokuskan pengelolaan data nasabah, transaksi, pembukuan, sampai ke laporan keuangan sehingga Anda bisa lebih fokus ke pengembangan bisnis.    
+                    </p>
+                    <a class="btn-solid-lg" href="<?php echo $hubungi;?>"><i class="fab fa-android"></i>Hubungi kami</a>
                     <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Demo Gratis</a>
                 </div>
                 <div class="xl:text-right">
@@ -25,8 +27,10 @@ require_once "1-header.php" ;
                 <p class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> 
                     <b> Fokus pada pertumbuhan bisnis jangka panjang. </b>
                 </p>
-                <p class="mb-4 text-gray-800 text-1xl leading-10 lg:max-w-5xl lg:mx-auto">  
-                    Karena kami sangat menghargai kepercayaan dan kepuasan Anda.</p>
+                <p class="mb-4 text-gray-800 text-1xl leading-7 lg:max-w-5xl lg:mx-auto">  
+                    Karena kami sangat menghargai kepercayaan dan kepuasan Anda.
+                    Program yang kami tawarkan adalah program dengan struktur operasional yang terbaik sehingga anda dapat menggunakan sistem dengan user friendly, data akurat dan informasi yang diberikan akurat dan informatif.
+                </p>
             </div> <!-- end of container -->
         </div>
         
@@ -359,7 +363,11 @@ require_once "1-header.php" ;
                             </li>
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
-                                <div>Transaksi Pinjaman</div>
+                                <div>Transaksi Pinjaman, Realisasi, dan Pencairan</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Angsuran Pokok dan Bunga</div>
                             </li>
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
@@ -403,6 +411,15 @@ require_once "1-header.php" ;
                             </li>
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
+                                <div>Detail Jadwal Pembayaran</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Detail Tunggakan</div>
+                            </li>
+                            
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
                                 <div>Transaksi & Laporan Arus Kas</div>
                             </li>
                             <li class="flex">
@@ -436,6 +453,18 @@ require_once "1-header.php" ;
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>
                                 <div style="font-weight: bold;font-style: italic;">Fitur Paket Advanced</div>
+                            </li>   
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Frekuensi Keterlambatan</div>
+                            </li>   
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Kolektibilitas</div>
+                            </li>   
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Denda</div>
                             </li>   
                             <li class="flex">
                                 <i class="fas fa-chevron-right"></i>

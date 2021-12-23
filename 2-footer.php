@@ -11,8 +11,8 @@
                     Tingkatkan efisiensi, produktivitas, dan performa bisnis dengan berbagai produk lintasan.
                 </p>
 
-                <div class="social-container">
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-android"></i>Hubungi kami</a>
+                <div class="social-container"> 
+                    <a class="btn-solid-lg" href="<?php echo $hubungi;?>"><i class="fab fa-android"></i>Hubungi kami</a>
                 </div>
             </div> <!-- end of container -->
         </div> <!-- end of footer -->
