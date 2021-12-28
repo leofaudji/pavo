@@ -1,19 +1,18 @@
 <?php
- 
-if (!function_exists('session_is_registered')) {
-  function session_is_registered($cName){
-    return isset($_SESSION[$cName]) ;
-  } 
-}
 
-if (!function_exists('session_register')) {
-  function session_register($cName){
-    $_SESSION[$cName] = "" ;
-  }
-}
- 
-  function snow(){  
+class oFunc {
+  public function Snow(){  
     return date("Y-m-d H:i:s",time()) ;
   }
-   
+
+  public function Require_File($file){
+    if(is_file($file)){
+      require_once($file);
+    }else{
+      print("File not found.") ;
+    }
+  }
+}
+
+$Func = new oFunc ;      
 ?>

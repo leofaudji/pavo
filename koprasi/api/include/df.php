@@ -1,1 +1,4 @@
-<?php defined( 'main' ) or die( 'Restricted access' ) ?>
+<?php 
+  require_once "df.var.php";
+  require_once "df.rc.php" ;
+?>

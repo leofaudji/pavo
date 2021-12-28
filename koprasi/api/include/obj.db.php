@@ -1,6 +1,6 @@
 <?php
 
-class myData { 
+class oData { 
   var $Error = "" ;
   var $dbCon ;
   public function Connect($cIP,$cUserName,$cPassword,$cDatabase){
@@ -74,7 +74,7 @@ class myData {
       }
     }
 
-    $cSQL = "" ;
+    $cSQL = "" ; 
     foreach($vaArray as $key=>$value){
       if(substr($value,0,1) == "&"){
         $value = substr($value,1) ;
@@ -202,12 +202,10 @@ class myData {
   }
 }
 
-$objdb = new myData() ;
-
+$DB = new oData ;
 $host = 'localhost'; 
-$user = 'kerjapan_Assist';
-$pass = 'Irac272727'; 
-$db = 'kerjapan_syanjaya';
-
-$koneksi = $objdb->Connect($host,$user,$pass,$db) ; 
+$user = 'Assist';
+$pass = 'Irac'; 
+$db = 'lintasan_koprasi';
+$DB->Connect($host,$user,$pass,$db) ; 
 ?>

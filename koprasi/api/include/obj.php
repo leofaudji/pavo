@@ -1,4 +1,3 @@
 <?php
-  require_once "./include/obj.func.php" ;
-  require_once "./include/obj.var.php";
+  require_once "obj.func.php" ; 
 ?>
