@@ -14,6 +14,7 @@
         case "master"     : require_once "./class/data_master/index.php" ; break ; 
         case "transaksi"  : require_once "./class/data_transaksi/index.php" ; break ; 
         case "laporan"    : require_once "./class/data_laporan/index.php" ; break ; 
+        case "login"    : require_once "./class/login.php" ; break ; 
         default : http_response_code(ERROR_NOT_FOUND); print(ERROR_NOT_FOUND . " Not found."); break;               
       }
     }else{

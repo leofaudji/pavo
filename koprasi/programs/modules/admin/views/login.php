@@ -15,7 +15,7 @@
 				height: 100%;
 				overflow: hidden;
 				position: relative;
-				background-color: #282931 ;
+				background-color: #282931 ;  
 			}
 			#b-login .wrappic{
 				width: 100% ;
@@ -67,7 +67,7 @@
 			<div class="caption">
 				<h1 style="margin-bottom:10px"><?=$app_title?></h1>
 				<p>
-					Copyright &copy; <?=date("Y")?> All rights reserved.
+					Copyright &copy; <?=date("Y")?> Lini Data Nusantara. All rights reserved
 				</p>
 			</div>
 		</div>

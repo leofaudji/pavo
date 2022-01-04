@@ -10,7 +10,8 @@
     define("TABLE_MASTER",array(
         "agama"=>"mst_agama",
         "cek"=>"mst_cek",
-        "dati2"=>"mst_dati2")
+        "dati2"=>"mst_dati2",
+        "login"=>"sys_username")
     ) ;
     
     define("API_TABUNGAN",array("register"=>"TABUNGAN_REGISTER","transaksi"=>"TABUNGAN_TRANSAKSI")) ;

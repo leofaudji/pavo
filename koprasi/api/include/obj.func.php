@@ -12,6 +12,11 @@ class oFunc {
       print("File not found.") ;
     }
   }
+
+  public function Pass_Crypt($pass){
+		return sha1((md5($pass.md5($pass)) . ord('b') . ord('b') . "bismillah") ) ;
+	} 
+
 }
 
 $Func = new oFunc ;      
